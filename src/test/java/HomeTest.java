@@ -14,6 +14,8 @@ public class HomeTest {
 
     @Before
     public void setup() {
+        //WebDriverManager.firefoxdriver().setup();
+        //driver = new FirefoxDriver();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -18,7 +18,7 @@ public class OrderPage{
     private By addressField = By.cssSelector(".Input_InputContainer__3NykH:nth-child(3) .Input_Responsible__1jDKN"); //Поле адрес
     private By phoneField = By.cssSelector(".Input_InputContainer__3NykH:nth-child(5) .Input_Responsible__1jDKN"); //Поле Телефон
     private By metroDropdown = By.className("select-search__value"); //Выпадающий список Станция метро
-    private By selectedStation = By.cssSelector("[data-value='2']"); //Выбранное занчение Охотны ряд
+    private By selectedStation = By.cssSelector("[data-value='2']"); //Выбранное занчение Черкизовская
     private By dateField = By.cssSelector(".Order_MixedDatePicker__3qiay .Input_Input__1iN_Z"); //Поле Дата доставки
     private By selectedDate = By.cssSelector(".react-datepicker__day--015"); //Выбор даты
     private By rentField = By.className("Dropdown-control"); //Выпадающий спикок Срок аренды
