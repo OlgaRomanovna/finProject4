@@ -23,7 +23,7 @@ public class OrderPage{
     private By selectedDate = By.cssSelector(".react-datepicker__day--015"); //Выбор даты
     private By rentField = By.className("Dropdown-control"); //Выпадающий спикок Срок аренды
     private By selectedTerm = By.cssSelector(".Dropdown-option:nth-child(2)"); //Выбранное значение Двое суток
-    private By colorCheckbox = By.id("grey"); //Чекбокс Цвет самоката
+    private By colorCheckbox = By.id("grey"); //Чекбокс Цвет самоката (выбран Серая безысходность)
     private By commentForCourier = By.cssSelector(".Input_InputContainer__3NykH .Input_Responsible__1jDKN"); //Поле Комментарий для курьера
     private By nextButton = By.className("Button_Middle__1CSJM"); //Кнопка Далее
     private By orderButtonFin = By.cssSelector(".Button_Middle__1CSJM:nth-child(2)"); //Кнопка Заказать
